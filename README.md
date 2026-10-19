@@ -103,7 +103,7 @@ After convergence, I verified FULL adjacency on both routers, restoration of bot
 
 ## Files and screenshots
 
-Open [ospf-hello-timer-resolved.pkt](ospf-hello-timer-resolved.pkt) in Cisco Packet Tracer to inspect the resolved lab. To reproduce the failure, change R2's Hello interval to 5 as shown above and allow the adjacency to expire; restore it to 10 to recover.
+Open [OSPF-Hello-Timer-Resolved.pkt](OSPF-Hello-Timer-Resolved.pkt) in Cisco Packet Tracer to inspect the resolved lab. To reproduce the failure, change R2's Hello interval to 5 as shown above and allow the adjacency to expire; restore it to 10 to recover.
 
 The screenshot links below assume these filenames in the repository root.
 
